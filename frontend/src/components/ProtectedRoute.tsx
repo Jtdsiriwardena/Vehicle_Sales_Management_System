@@ -1,5 +1,5 @@
 import { Navigate } from "react-router-dom";
-import { isTokenValid } from "../../../backend/src/utils/auth";
+import { isTokenValid } from "../utils/auth";
 import type { JSX } from "react";
 
 interface ProtectedRouteProps {
