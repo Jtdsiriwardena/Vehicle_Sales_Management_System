@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Base axios instance
 const API = axios.create({
-  baseURL: "http://localhost:4000",
+  baseURL: "https://vehiclesalesmanagementsystem-production.up.railway.app",
 });
 
 // JWT token
