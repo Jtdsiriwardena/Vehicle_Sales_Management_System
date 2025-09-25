@@ -2,7 +2,7 @@
 
 A modern, AI-powered vehicle sales management system built with **React.js**, **Node.js**, **Express**, **TypeScript**, and **MySQL**, and **Jest**. This platform provides **vehicle management** for administrators and a **user-friendly browsing experience** for customers.
 
-
+&nbsp;
 # ⚙️ Setup Instructions
 
 ## 1. Prerequisites
@@ -69,6 +69,7 @@ cd frontend
 npm run dev
 ```
 
+&nbsp;
 ## ✨ Features Implemented
 
 ### 1. Authentication
@@ -105,9 +106,8 @@ npm run dev
 - Smart Filtering by color and engine size
 - Multiple Sort Options by date added, price, or year
 - Detailed Vehicle Pages with images, specifications, and AI-generated descriptions
-- Contact/Inquiry functionality
 
-
+&nbsp;
 ## ⚠️ Assumptions & Limitations
 
 ### Assumptions
@@ -124,7 +124,7 @@ npm run dev
 2. AI description generation requires an OpenAI API key; if unavailable, descriptions must be manually entered.
 3. No real-time notifications or chat features for customer inquiries yet.
 
-
+&nbsp;
 ## 📡 API Endpoints
 
 ### 1. Authentication (Admin)
@@ -144,6 +144,7 @@ npm run dev
 | DELETE | /api/vehicles/:id | Delete a vehicle | – |
 | POST | /api/vehicles/generate-description | Generate vehicle description via OpenAI | `{ brand, model, type?, color?, engineSize?, year? }` |
 
+&nbsp;
 ### 3. Analytics (Admin)
 
 | Method | Endpoint | Description |
@@ -153,10 +154,29 @@ npm run dev
 | GET | /api/analytics/count-by-type | Total vehicle count grouped by type |
 | GET | /api/analytics/count-by-price-range | Vehicle count per price range |
 
+&nbsp;
 ### 4. Customer Features
 
 | Method | Endpoint | Description |
 | --- | --- | --- |
 | GET | /api/vehicles | Browse all vehicles (with filters & sorting) |
 | GET | /api/vehicles/:id | Vehicle details including images, specifications, AI description |
+
+&nbsp;
+## 📸 Screenshots
+
+### Customer Page
+![Customer Page](https://github.com/user-attachments/assets/55f5ff81-cadd-45f6-9599-3b0e13181dfe)
+
+&nbsp;
+### Admin Dashboard with statistics and vehicle management
+![Admin Dashboard](https://github.com/user-attachments/assets/752ff2c5-1fdd-4fa6-bbd6-cc13e52d24f1)
+
+&nbsp;
+## 📂 More Screenshots & Demo Video
+
+You can view all the **UI Screenshots**, **Testing Screenshots**, and the **Demo Video** in the following Google Drive folder:
+
+[👉 View Screenshots & Demo](https://drive.google.com/drive/folders/1ooytqgpmWBUpYWqk37ox5iwncPmUy9zR?usp=sharing)
+
 
