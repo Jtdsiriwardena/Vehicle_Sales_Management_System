@@ -3,7 +3,7 @@ import { jwtDecode } from "jwt-decode";
 interface TokenPayload {
   exp: number; 
   iat: number;
-  [key: string]: any;
+  [key: string]: unknown;
 }
 
 export const isTokenValid = (): boolean => {
@@ -14,7 +14,7 @@ export const isTokenValid = (): boolean => {
     const decoded: TokenPayload = jwtDecode(token);
     const now = Date.now() / 1000; 
     return decoded.exp > now;
-  } catch (err) {
+  } catch {
     return false;
   }
 };
