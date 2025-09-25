@@ -32,7 +32,7 @@ function App() {
   return (
     <Routes>
       {/* Admin Login route */}
-      <Route path="/" element={<Login />} />
+      <Route path="/adminLogin" element={<Login />} />
 
       {/* Admin pages routes */}
       <Route
@@ -67,7 +67,7 @@ function App() {
       />
 
       {/* Customer routes */}
-      <Route path="/customer" element={<CustomerDashboard />} />
+      <Route path="/" element={<CustomerDashboard />} />
       <Route path="/vehicle/:id" element={<CustomerVehicleDetail />} />
     </Routes>
   );
