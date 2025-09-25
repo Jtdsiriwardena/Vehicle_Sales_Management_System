@@ -149,7 +149,7 @@ npm run dev
 
 | Method | Endpoint | Description |
 | --- | --- | --- |
-| GET | /api/analytics/vehicles-added | Vehicles added per day/week/month |
+| GET | /api/analytics/vehicles-added | Vehicles added per week |
 | GET | /api/analytics/count-by-brand | Total vehicle count grouped by brand |
 | GET | /api/analytics/count-by-type | Total vehicle count grouped by type |
 | GET | /api/analytics/count-by-price-range | Vehicle count per price range |
@@ -185,6 +185,6 @@ npm run dev
 
 You can view all the **UI Screenshots**, **Testing Screenshots**, and the **Demo Video** in the following Google Drive folder:
 
-[👉 View Screenshots & Demo](https://drive.google.com/drive/folders/1ooytqgpmWBUpYWqk37ox5iwncPmUy9zR?usp=sharing)
+[👉 View More Screenshots & Demo](https://drive.google.com/drive/folders/1ooytqgpmWBUpYWqk37ox5iwncPmUy9zR?usp=sharing)
 
 
