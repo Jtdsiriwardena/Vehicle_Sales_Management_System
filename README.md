@@ -165,12 +165,20 @@ npm run dev
 &nbsp;
 ## 📸 Screenshots
 
-### Customer Page
+### Customer Home Page
 ![Customer Page](https://github.com/user-attachments/assets/55f5ff81-cadd-45f6-9599-3b0e13181dfe)
+
+&nbsp;
+### Vehicle Details Page
+<img width="1920" height="1305" alt="Image" src="https://github.com/user-attachments/assets/ed49cbf6-6e95-4b20-8bb6-d038f57fea50" />
 
 &nbsp;
 ### Admin Dashboard with statistics and vehicle management
 ![Admin Dashboard](https://github.com/user-attachments/assets/752ff2c5-1fdd-4fa6-bbd6-cc13e52d24f1)
+
+&nbsp;
+### Analytics Dashboard 
+<img width="1592" height="2072" alt="Image" src="https://github.com/user-attachments/assets/115a35ab-812a-4244-a468-992c7793ec32" />
 
 &nbsp;
 ## 📂 More Screenshots & Demo Video
