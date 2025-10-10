@@ -61,6 +61,7 @@ export const countByType = async (req: Request, res: Response) => {
       .createQueryBuilder("v")
       .select("v.type", "type")
       .addSelect("COUNT(*)", "count")
+      .addSelect("SUM(v.price)", "price")
       .groupBy("v.type")
       .orderBy("count", "DESC")
       .getRawMany();
